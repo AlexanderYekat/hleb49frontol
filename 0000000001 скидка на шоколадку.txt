@@ -1,0 +1,17 @@
+function init()
+{
+}
+function chokolate(position, sum)
+{
+ posChokCode = "12";
+ res = 0;
+ kolShokMust = sum/500;
+ if (position.ware.code == posChokCode) {
+   summSkidki = 0;
+   if (kolShokMust <= position.quantity) {
+    summSkidki = 99;
+   }
+   res = summSkidki;
+ }
+ return res;
+}
